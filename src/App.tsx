@@ -1,18 +1,17 @@
 import './App.css';
 import styled from 'styled-components';
+import {Card} from "./Card";
 
 
 function App() {
     return (
         <div className="App">
             <Title>Styled-components <span>.attrs</span> method</Title>
-
+            <Card/>
             <Form>
                 <Field placeholder={'hello'} title={'123'}/>
                 <Field />
                 <Field />
-
-
                 <Checkbox/>
             </Form>
         </div>
