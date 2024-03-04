@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import {theme} from "./styles/Theme.styled";
 import {Header} from "./layout/header/Header";
-import {Icon} from "./components/Icon";
+import {Main} from "./layout/sections/Main";
 
 
 function App() {
     return (
         <Box>
             <Header/>
-            <Icon iconId={'gmail'}/>
+            <Main/>
         </Box>
     );
 }
@@ -17,7 +17,9 @@ export default App;
 
 const Box = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
 
 
   @media ${theme.media.tablet} {
