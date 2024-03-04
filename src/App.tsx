@@ -1,20 +1,14 @@
 import styled from 'styled-components';
-import {Card} from "./Card";
 import {theme} from "./styles/Theme.styled";
+import {Header} from "./layout/header/Header";
+import {Icon} from "./components/Icon";
 
 
 function App() {
     return (
         <Box>
-            <Title>Styled-components <span>.attrs</span> method</Title>
-            <Card/>
-            <Card/>
-            <Form>
-                <Field placeholder={'hello'} title={'123'}/>
-                <Field/>
-                <Field/>
-                <Checkbox/>
-            </Form>
+            <Header/>
+            <Icon iconId={'gmail'}/>
         </Box>
     );
 }
@@ -22,11 +16,9 @@ function App() {
 export default App;
 
 const Box = styled.div`
-  height: 100vh;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+
 
   @media ${theme.media.tablet} {
     flex-direction: column;

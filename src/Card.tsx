@@ -88,6 +88,7 @@ const Button = styled.button<ButtonType>`
   text-align: left;
   background: transparent;
   color: black;
+
   &:hover {
     background: #999;
   }
@@ -96,16 +97,17 @@ const Button = styled.button<ButtonType>`
     color: rgb(255, 255, 255);
     background: rgb(78, 113, 254);
     border: none;
+
     &:hover {
       background: rgb(97, 128, 250);
     }
   `
   }
-  
-  ${props=>props.outlined && css<ButtonType>`
+
+  ${props => props.outlined && css<ButtonType>`
     background: transparent;
     border: 2px solid rgb(78, 113, 254);
     color: rgb(78, 113, 254);
   `
-  }  
+  }
 `
