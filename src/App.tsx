@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import {theme} from "./styles/Theme.styled";
 import {Header} from "./layout/header/Header";
 import {Main} from "./layout/sections/Main";
+import {Skills} from "./layout/skills/Skills";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Box>
             <Header/>
             <Main/>
+            <Skills/>
         </Box>
     );
 }
