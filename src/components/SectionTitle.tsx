@@ -1,1 +1,1 @@
-import styled from "styled-components";export const SectionTitle = styled.h3`    `
+import styled from "styled-components";export const SectionTitle = styled.h2`    `
