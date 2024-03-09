@@ -25,6 +25,9 @@ a {
   text-decoration: none;
   color: ${theme.colors.font.main}
 }
+a:hover {
+  color: ${theme.colors.font.secondary};
+}
 ul {
   list-style: none;
 }
