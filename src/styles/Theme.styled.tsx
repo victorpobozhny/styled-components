@@ -1,12 +1,16 @@
 export const theme = {
     colors: {
-        primary: 'gold',
-        secondary: 'pink',
-        gradient: 'linear-gradient(90.00deg, rgb(0, 245, 160),rgb(0, 217, 245) 100%)',
-        grey: {
-            dark: '#555',
-            bright: '#999'
-        }
+        primaryBg: 'rgb(4, 31, 49)',
+        secondaryBg: 'rgb(34, 37, 37)',
+        accent: 'linear-gradient(90.00deg, rgb(0, 245, 160),rgb(0, 217, 245) 100%)',
+
+
+        font: {
+            main: '#BDEBEA',
+            secondary: '#D7E5EC',
+            dark: '#252728',
+        },
+
     },
 
     media: {
