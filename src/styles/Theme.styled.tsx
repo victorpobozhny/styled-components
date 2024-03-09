@@ -7,7 +7,7 @@ export const theme = {
 
         font: {
             main: '#BDEBEA',
-            secondary: '#D7E5EC',
+            secondary: '#e9efef',
             dark: '#252728',
         },
 

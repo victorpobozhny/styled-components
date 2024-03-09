@@ -19,7 +19,8 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: ${theme.colors.font.main}
+  color: ${theme.colors.font.main};
+  line-height: 1.2;
 }
 a {
   text-decoration: none;
