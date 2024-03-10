@@ -1,1 +1,1 @@
-import styled, {css} from "styled-components";type SectionTitle = {    paddingLeft?: string}export const SectionTitle = styled.h2<SectionTitle>`    ${props=>props.paddingLeft && css<SectionTitle>`    padding-left: ${props.paddingLeft};    `}`
+import styled, {css} from "styled-components";type SectionTitle = {    padding?: string    margin?: string}export const SectionTitle = styled.h2<SectionTitle>`  ${props => props.padding && css<SectionTitle>`    padding: ${props.padding};    margin: ${props.margin};  `}`
