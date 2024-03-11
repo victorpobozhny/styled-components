@@ -33,6 +33,7 @@ ul {
   list-style: none;
 }
 button {
+  font-family: Montserrat;
   background-color: unset;
   border: none;
 }
