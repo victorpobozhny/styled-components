@@ -15,7 +15,7 @@ function App() {
             <Main/>
             <Works/>
             <Skills/>
-            {/*<Contacts/>*/}
+            <Contacts/>
             {/*<Footer/>*/}
         </Box>
     );
@@ -24,7 +24,9 @@ function App() {
 export default App;
 
 const Box = styled.div`
- 
+ display: flex;
+  flex-direction: column;
+  gap: 140px;
   
 
 
