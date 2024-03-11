@@ -16,7 +16,7 @@ function App() {
             <Works/>
             <Skills/>
             <Contacts/>
-            {/*<Footer/>*/}
+            <Footer/>
         </Box>
     );
 }
